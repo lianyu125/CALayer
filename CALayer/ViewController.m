@@ -26,7 +26,7 @@
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight) style:UITableViewStylePlain];
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
-
+    NSLog(@"提交了一个分支");
     [self.view addSubview:self.tableView];
  }
 
